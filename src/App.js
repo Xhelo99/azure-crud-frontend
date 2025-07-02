@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Typography, TextField, Button, Card, CardContent, Alert, Box } from '@mui/material';
 
-const API_BASE = "const API_BASE = "https://pythonproject-f8g8a9achgb8e4dc.germanywestcentral-01.azurewebsites.net";
+const API_BASE = "https://pythonproject-f8g8a9achgb8e4dc.germanywestcentral-01.azurewebsites.net";
 
 function App() {
     // States for add user
