@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Typography, TextField, Button, Card, CardContent, Alert, Box } from '@mui/material';
 
-const API_BASE = "http://127.0.0.1:5000"; // Update this if your backend is remote
+const API_BASE = "const API_BASE = "https://pythonproject-f8g8a9achgb8e4dc.germanywestcentral-01.azurewebsites.net";
 
 function App() {
     // States for add user
@@ -121,7 +121,7 @@ function App() {
                 </CardContent>
             </Card>
             <Typography align="center" variant="caption" display="block" sx={{ mt: 4, color: "#888" }}>
-                &copy; {new Date().getFullYear()} Mariglen Xhelo · Powered by React, Flask & Azure
+                &copy; {new Date().getFullYear()} Mariglen Xhelo Â· Powered by React, Flask & Azure
             </Typography>
         </Container>
     );
